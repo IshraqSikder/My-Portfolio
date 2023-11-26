@@ -1,0 +1,130 @@
+* {
+    margin: none;
+    padding: none;
+}
+
+.first {
+    height: 100vh;
+}
+
+.top-first {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    background-color: #3B2930;
+}
+
+.top-list {
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #3B2930;
+    margin-top: 15px;
+    padding: 10px 20px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    font-size: 15px;
+    border-color: #DB9A64;
+}
+
+.details {
+    align-content: center;
+    justify-content: space-around;
+    font-weight: 400px;
+}
+
+.image {
+    width: 30%;
+}
+
+.top-mid {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.details {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: "Roboto",
+        sans-serif;
+}
+
+.exp {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #DB9A64;
+}
+
+.skills {
+    display: grid;
+    text-align: center;
+    font-size: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 150px 150px;
+}
+
+.skills i {
+    font-size: 60px;
+}
+
+.b1 img {
+    width: 300px;
+    height: 150px;
+}
+
+.b1 h6 {
+    font-size: 20px;
+}
+
+.b1 h6 span {
+    font-size: 25px;
+
+}
+
+.b1 {
+    display: flex;
+    gap: 20px;
+}
+
+.blogs {
+    margin-top: -4%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 300px 150px;
+    box-sizing: border-box;
+}
+
+.form {
+    text-align: center;
+}
+
+.input-box {
+    width: 300px;
+    height: 30px;
+}
+
+.share {
+    width: 300px;
+    height: 200px;
+}
+
+.last {
+    background-color: #3B2930;
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+    padding: 10px;
+}
